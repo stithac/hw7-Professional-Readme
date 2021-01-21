@@ -64,7 +64,7 @@ function renderLicenseLink(license) {
       linkURL = "";
   }
 
-  return `[![License: ${license}](${linkURL})]`;
+  return `[License: ${license}](${linkURL})`;
 }
 
 // TODO: Create a function that returns the license section of README
@@ -72,7 +72,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   const link = renderLicenseLink(license);
 
-  return `The license used for this application: ${link}. Click the name of the license for more information.`
+  return `The application is covered under the license: ${link}. Click the name of the license for more information.`
 }
 
 // TODO: Create a function to generate markdown for README
@@ -80,11 +80,11 @@ function generateMarkdown(data) {
   const badge = renderLicenseBadge(data.license);
   const license = renderLicenseSection(data.license);
 
-  const contents = `* [Description](#description)\n* [Installation](#installation)\n* [Usage](#usage)\n[License](#license)\n* [Contributing](#contributing)\n* [Tests](#tests)\n* [Questions](#questions)`;
+  const contents = `* [Description](#description)\n* [Installation](#installation)\n* [Usage](#usage)\n* [License](#license)\n* [Contributing](#contributing)\n* [Tests](#tests)\n* [Questions](#questions)`;
 
   const username = `[${data.username}]('https://github.com/${data.username}'). Click the username to access the GitHub repository.`
 
-  return `${badge}\n\n# ${data.title} \n\n## Description \n\n${data.description} \n\n## Table of Contents\n\n${contents}\n\n## Installation \n\n${data.installation} \n\n## Usage \n\n${data.usage} \n\n## License \n\n${license}\n\n## Contributing \n\n${data.contributing}\n\n## Tests \n\n${data.tests}\n\n## Questions? Contact for more information \n\nGitHub Username: ${username} \n\nEmail Address: ${data.email}`;
+  return `${badge}\n\n# ${data.title} \n\n## Description \n\n${data.description} \n\n## Table of Contents\n\n${contents}\n\n## Installation \n\n${data.installation} \n\n## Usage \n\n${data.usage} \n\n## License \n\n${license}\n\n## Contributing \n\n${data.contributing}\n\n## Tests \n\n${data.tests}\n\n## Questions? Contact for more information \n\nGitHub Username: ${username} \n\nEmail Address: [${data.email}](mailto:${data.email})`;
 }
 
 module.exports = generateMarkdown;

@@ -63,16 +63,15 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-  console.log('Welcome to the ACS README file generator!','\n');
+  console.log('Welcome to the ACS README.md file generator!','\n');
   console.log('Enter your responses to the following questions and your README will be generated.', '\n');
 
   inquirer.prompt(questions)
   .then((response) =>
 
-
     writeToFile(response.title + "-README.md", generateMarkdown({...response}))
-      ? console.log('Not successful')
-      : console.log('Successful')
+      ? console.log('\n\n** README not created **')
+      : console.log('\n\n** README created! **')
   );
 }
 
