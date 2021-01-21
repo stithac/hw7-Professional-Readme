@@ -1,14 +1,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
-# hw7-professional-readme 
+# hw-7-professional-readme
 
-## Description 
+## Description
 
-This application is a command-line application that generates a high-quality README.md file 
+This application is a command-line application that generates a high-quality README.md file
 
 ## Table of Contents
 
-* [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
@@ -16,28 +15,28 @@ This application is a command-line application that generates a high-quality REA
 * [Tests](#tests)
 * [Questions](#questions)
 
-## Installation 
+## Installation
 
-:  1- Create a `.gitignore` file and include `node_modules/`; 2- install npm dependencies 
+1- Create a `.gitignore` file and include `node_modules/`; 2- install npm dependencies
 
-## Usage 
+## Usage
 
-Enter responses to all questions and the README.md file will be dynamically generated 
+Enter responses to all questions and the README.md file will be dynamically generated
 
-## License 
+## License
 
 The application is covered under the license: [License: MIT](https://opensource.org/licenses/MIT). Click the name of the license for more information.
 
-## Contributing 
+## Contributing
 
 N/A
 
-## Tests 
+## Tests
 
 N/A
 
-## Questions? Contact for more information 
+## Questions? Contact for more information
 
-GitHub Username: [stithac]('https://github.com/stithac'). Click the username to access the GitHub repository. 
+GitHub Username: [stithac]('https://github.com/stithac'). Click the username to access the GitHub repository.
 
 Email Address: [ashleyc.stith@gmail.com](mailto:ashleyc.stith@gmail.com)

@@ -80,7 +80,7 @@ function generateMarkdown(data) {
   const badge = renderLicenseBadge(data.license);
   const license = renderLicenseSection(data.license);
 
-  const contents = `* [Description](#description)\n* [Installation](#installation)\n* [Usage](#usage)\n* [License](#license)\n* [Contributing](#contributing)\n* [Tests](#tests)\n* [Questions](#questions)`;
+  const contents = `* [Installation](#installation)\n* [Usage](#usage)\n* [License](#license)\n* [Contributing](#contributing)\n* [Tests](#tests)\n* [Questions](#questions)`;
 
   const username = `[${data.username}]('https://github.com/${data.username}'). Click the username to access the GitHub repository.`
 
