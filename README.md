@@ -13,9 +13,6 @@ The generated README.md file contains sections for the Description, Table of Con
 
 Because the application is not deployed, a video demonstrating its functionality is included.  The video was created using Screencastify and a link to it is included below. A [test README.md file](hw7-professional-readme-README.md) has also been included to show an example of a generated README.md file.
 
-Example of the command-line application:
-[![Screenshot](./Assets/screenshot.PNG)]
-
 Video demo of the application: *Note: The application may have been slightly updated since recording demo*
 [![Video](./Assets/screenshot.PNG)](https://drive.google.com/file/d/1GtlAhnR1HXYaVm09OOuH63dwhw05PoCV/view?usp=sharing)
 
