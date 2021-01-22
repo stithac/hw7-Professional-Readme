@@ -13,7 +13,7 @@ This application is a command-line application that generates a high-quality REA
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
-* [Questions](#questions)
+* [Questions](#questions-contact-for-more-information)
 
 ## Installation 
 
@@ -35,7 +35,8 @@ N/A
 
 N/a
 
-## Questions? Contact for more information 
+## Questions
+Contact for more information: 
 
 GitHub Username: [stithac](https://github.com/stithac). Click the username to access the GitHub repository. 
 
