@@ -84,7 +84,7 @@ function generateMarkdown(data) {
 
   const username = `[${data.username}](https://github.com/${data.username}). Click the username to access the GitHub repository.`
 
-  return `${badge}\n\n# ${data.title} \n\n## Description \n\n${data.description} \n\n## Table of Contents\n\n${contents}\n\n## Installation \n\n${data.installation} \n\n## Usage \n\n${data.usage} \n\n## License \n\n${license}\n\n## Contributing \n\n${data.contributing}\n\n## Tests \n\n${data.tests}\n\n## Questions? Contact for more information \n\nGitHub Username: ${username} \n\nEmail Address: [${data.email}](mailto:${data.email})`;
+  return `${badge}\n\n# ${data.title} \n\n## Description \n\n${data.description} \n\n## Table of Contents\n\n${contents}\n\n## Installation \n\n${data.installation} \n\n## Usage \n\n${data.usage} \n\n## License \n\n${license}\n\n## Contributing \n\n${data.contributing}\n\n## Tests \n\n${data.tests}\n\n## Questions \n\nContact directly for more information:\n\nGitHub Username: ${username} \n\nEmail Address: [${data.email}](mailto:${data.email})`;
 }
 
 module.exports = generateMarkdown;
