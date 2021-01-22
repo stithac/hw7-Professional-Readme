@@ -13,7 +13,7 @@ This application is a command-line application that generates a high-quality REA
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
-* [Questions](#questions-contact-for-more-information)
+* [Questions](#questions)
 
 ## Installation 
 
