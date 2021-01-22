@@ -16,8 +16,8 @@ Because the application is not deployed, a video demonstrating its functionality
 Example of the command-line application:
 [![Screenshot](./Assets/screenshot.PNG)]
 
-Video demo of the application:
-[![Video](./Assets/screenshot.PNG)](./Assets/demo.mp4))
+Video demo of the application: *Note: The application may have been slightly updated since recording demo*
+[![Video](./Assets/screenshot.PNG)](https://drive.google.com/file/d/1GtlAhnR1HXYaVm09OOuH63dwhw05PoCV/view?usp=sharing)
 
 ## Installation
 * Create a `.gitignore` file and include `node_modules/` and `.DS_Store/`
