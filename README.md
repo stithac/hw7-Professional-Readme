@@ -11,14 +11,20 @@ node index.js
 
 The generated README.md file contains sections for the Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.  The title of the README.md file will be the project title.
 
-Because the application is not deployed, a video demonstrating its functionality is included.  The viedo was created using Screencastify and a link to it is included below.
+Because the application is not deployed, a video demonstrating its functionality is included.  The video was created using Screencastify and a link to it is included below. A [test README.md file](hw7-professional-readme-README.md) has also been included to show an example of a generated README.md file.
+
+Example of the command-line application:
+[![Screenshot](./Assets/screenshot.PNG)]
+
+Video demo of the application:
+[![Video](./Assets/screenshot.PNG)](./Assets/demo.mp4))
 
 ## Installation
 * Create a `.gitignore` file and include `node_modules/` and `.DS_Store/`
 * Install npm dependencies using the following command:
-    ```bash
-    node i --save
-    ```
+```bash
+node i --save
+```
 
 ## Known Bugs
 Site has no known bugs
